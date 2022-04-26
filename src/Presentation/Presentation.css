@@ -1,0 +1,12 @@
+.backgroundPresentation{
+    background: #144662;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    color: white;
+}
+.logo{
+    margin: 0 auto;
+    display: flex;
+}
