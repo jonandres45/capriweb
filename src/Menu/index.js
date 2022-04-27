@@ -1,14 +1,13 @@
 import React from 'react';
-import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
-import Toolbar from '@mui/material/Toolbar';
+import BottomNavigation from '@mui/material/BottomNavigation';
+import BottomNavigationAction from '@mui/material/BottomNavigationAction';
 //import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
-import IconButton from '@mui/material/IconButton';
-import MenuIcon from '@mui/icons-material/Menu';
+import RestoreIcon from '@mui/icons-material/Restore';
 import './Menu.css';
 
 function Menu(){
+    const [value, setValue] = React.useState(0);
     const btnMenu = [
         {
             text: 'Capri - ISR',
@@ -28,37 +27,17 @@ function Menu(){
     ]
     return (
     <Box sx={{ flexGrow: 1 }}>
-        <AppBar
-            position='static'
-            sx={{boxShadow: 0}}
-            style={{background:'#213236'}}
-        >
-            <Toolbar>
-            <IconButton
-                size="large"
-                edge="start"
-                color="inherit"
-                aria-label="menu"
-                sx={{ mr: 2 }}
-            >
-                <MenuIcon />
-            </IconButton>
-            <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }} justifyContent="center">
-                {btnMenu.map((btn) => (
-                <Button
-                    variant="outlined"                    
-                    color="info"
-                    key={btn.text}
-                    sx={{my: 2, color: 'white', display: 'block' }}
-                    className="btnMenu"
-                    size="large"
-                >
-                    {btn.text}
-                </Button>
-                ))}
-            </Box>
-            </Toolbar>
-      </AppBar>
+        <BottomNavigation
+        showLabels
+        value={value}
+        onChange={(event, newValue) => {
+          setValue(newValue);
+        }}
+      >
+          {btnMenu.map((item)=>(
+              <BottomNavigationAction label={item.text} icon={<RestoreIcon />} />
+          ))}
+      </BottomNavigation>
     </Box>
     );
 }
