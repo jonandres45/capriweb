@@ -5,9 +5,9 @@ import './App.css';
 
 function App() {
   return (
-    <React.StrictMode>
-      <Menu/>
+    <React.StrictMode>      
       <Presentation/>
+      <Menu/>
     </React.StrictMode>
   );
 }
