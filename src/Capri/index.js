@@ -11,67 +11,72 @@ function Capri(){
             pt={6}
         >
             <Grid container spacing={2} justifyContent="center">
-                <Grid item xs={4} alignSelf="center">
+                <Grid item xs={5} alignSelf="center">
                     <Typography gutterBottom variant="h5" component="div">
                         Programa para los cálculos federales
                     </Typography>
-                    <Typography variant="body2" color="text.secondary">
+                    <Typography variant="body2" color="text.white">
                         -ISR por Enajenación de bienes inmuebles <br/>
                         -ISR por Adquisición de bienes inmuebles <br/>
                         -Cálculo de recargos <br/>
                         -Avalúos Referidos <br/>
-                    </Typography>                        
-                </Grid>
-                <Grid item xs={4} alignSelf="center">
-                    <Typography gutterBottom variant="h5" component="div">
+                    </Typography>
+                    <Typography gutterBottom variant="h5" component="div" mt={5}>
                         Calculos estatales de
                     </Typography>
-                    <Typography variant="body2" color="text.secondary">
+                    <Typography variant="body2" color="text.white">
                         -Arancel <br/>
                         -Derechos <br/>
                         -Isai <br/>
-                    </Typography>                        
-                </Grid>
-                <Grid item xs={4} alignSelf="center">
-                    <Typography gutterBottom variant="h5" component="div">
+                    </Typography>
+                    <Typography gutterBottom variant="h5" component="div" mt={5}>
                         Imprime los datos de los formatos federales
                     </Typography>
-                    <Typography variant="body2" color="text.secondary">
+                    <Typography variant="body2" color="text.white">
                         -Forma 1A <br/>
                         -Anexos de la 1A <br/>
                         -Página 2 Bis <br/>
-                    </Typography>                        
+                    </Typography>
+                </Grid>
+                <Grid item xs={5} alignSelf="center">
+
                 </Grid>
                 <Grid item xs={4} alignSelf="center">
                     <Typography gutterBottom variant="h5" component="div">
                         Exporta al DeclaraNOT en línea
                     </Typography>
-                    <Typography variant="body2" color="text.secondary">
+                    <Typography variant="body2" color="text.white">
                         Genere sus archivos TXT para importarlos al DeclaraNot en línea 2019 <br/>
                         Exporte ambos TXT (UIF y DeclaraNot) con un solo llenado <br/>
                         Obtenga a sus contribuyentes con su propia base de datos personalizada <br/>
                     </Typography>                        
                 </Grid>
+                <Grid item xs={5} alignSelf="center">
+                    
+                </Grid>
                 <Grid item xs={4} alignSelf="center">
                     <Typography gutterBottom variant="h5" component="div">
                         Aprenda a leer y explicar un detalle de cálculo
                     </Typography>
-                    <Typography variant="body2" color="text.secondary">
+                    <Typography variant="body2" color="text.white">
                         Capri I.S.R. cuenta con una función "Ayuda" la cual le <br/>
                         guiara paso a paso como se desarrollo su cálculo <br/>
                         Muestra los articulos utilizados paso a paso así como su procedimiento
-                    </Typography>                        
+                    </Typography>
+                </Grid>
+                <Grid item xs={5} alignSelf="center">
+                    
                 </Grid>
                 <Grid item xs={4} alignSelf="center">
                     <Typography gutterBottom variant="h5" component="div">
                         Imprime los formatos completos de libre impresón
                     </Typography>
-                    <Typography variant="body2" color="text.secondary">
+                    <Typography variant="body2" color="text.white">
                         -Anexo 5 de la forma fiscal 30 <br/>
                         -Constancia de Operaciones 37-C <br/>
                         -Forma de pago del 5% a la Entidad Federativa 15-C <br/>
                         -Forma de pago del 5% a la Entidad Federativa F-3 <br/>
-                    </Typography>                        
+                    </Typography>
                 </Grid>
             </Grid>
         </Box>

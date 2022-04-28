@@ -2,6 +2,7 @@ import React from 'react';
 import {Menu} from '../Menu';
 import {Presentation} from '../Presentation';
 import {Capri} from '../Capri';
+import {HojaPedido} from '../HojaPedido';
 import './App.css';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Presentation/>
       <Menu/>
       <Capri/>
+      <HojaPedido/>
     </React.StrictMode>
   );
 }
