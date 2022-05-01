@@ -5,8 +5,8 @@ import Grid from '@mui/material/Grid';
 import './Footer.css';
 function Footer(){
     return(
-        <Box sx={{ mt: 4}}>
-            <Grid container spacing={2} justifyContent="center" textAlign="center">
+        <Box sx={{ mt: 0}} className="backgroundFooter">
+            <Grid container py={6} spacing={2} justifyContent="center" textAlign="center">
                 <Grid item xs={5}>
                     <img src={mexico} alt="México" className='mexico'></img>
                 </Grid>

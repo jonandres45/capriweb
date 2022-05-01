@@ -35,7 +35,7 @@ function Menu(){
         }}
       >
           {btnMenu.map((item)=>(
-              <BottomNavigationAction label={item.text} icon={<RestoreIcon />} />
+              <BottomNavigationAction key={item.text} label={item.text} icon={<RestoreIcon />} />
           ))}
       </BottomNavigation>
     </Box>

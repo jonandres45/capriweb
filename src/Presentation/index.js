@@ -2,11 +2,12 @@ import React from "react";
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 import './Presentation.css';
-import logo from '../media/image/logo.png';
+import logo from '../assets/images/logo.png';
 import PhoneIcon from '@mui/icons-material/Phone';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import Button from '@mui/material/Button';
 import EmailIcon from '@mui/icons-material/Email';
+
 
 function Presentation(){
     return (

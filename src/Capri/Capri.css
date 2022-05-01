@@ -1,4 +1,11 @@
 .backgroundPresentationCapri{
-    background: #144662;
+    background-image: linear-gradient(to bottom, #052436, #08283a, #0c2c3e, #103042, #143446, #183b4f, #1b4157, #1f4860, #245470, #286080, #2c6c90, #3179a1);
     color: white;
+}
+.image-video{
+    width: 100%;
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 32px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 32px -6px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 32px -6px rgba(0,0,0,0.75);
 }
