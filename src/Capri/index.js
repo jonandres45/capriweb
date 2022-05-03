@@ -17,11 +17,7 @@ function Capri(){
             pt={6}
         >
             <Grid container justifyContent="space-evenly">
-                <Grid item xs={4} alignSelf="center">
-                    <ScrollAnimation 
-                        animateIn='bounceInLeft'
-                        animateOut='bounceOutLeft'
-                      >                          
+                <Grid item xs={4} alignSelf="center">                     
                         <Typography gutterBottom variant="h5" component="div">
                             Programa para los cálculos federales
                         </Typography>
@@ -56,14 +52,9 @@ function Capri(){
                             -Forma de pago del 5% a la Entidad Federativa 15-C <br/>
                             -Forma de pago del 5% a la Entidad Federativa F-3 <br/>
                         </Typography>
-                    </ScrollAnimation>
                 </Grid>
-                <Grid item xs={5} alignSelf="center">
-                    <ScrollAnimation 
-                        animateIn="fadeIn"
-                    >    
+                <Grid item xs={5} alignSelf="center">                    
                         <Office/>
-                    </ScrollAnimation>
                 </Grid>
                 <Grid item xs={5} mt={18} alignSelf="center">
                     <ScrollAnimation 

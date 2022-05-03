@@ -13,18 +13,23 @@ function Menu(){
     const btnMenu = [
         {
             text: 'Capri - ISR',
+            route: '/'
         },
         {
             text: 'INPC',
+            route: '/indices'
         },
         {
             text: 'UDIS',
+            route:'/udis'
         },
         {
             text:'Tablas y tarifas I.S.R.',
+            route:'/tablas'
         },
         {
             text:'UMA',
+            route:'/uma'
         }
     ]
     return (
@@ -44,7 +49,7 @@ function Menu(){
                             key={item.text} 
                             icon={<RestoreIcon />}
                             onClick={()=>{                                
-                                navigate("/indices");
+                                navigate(item.route);
                             }}
                         >
                         </BottomNavigationAction>
