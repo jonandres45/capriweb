@@ -4,6 +4,7 @@ import {Presentation} from '../Presentation';
 import {Capri} from '../Capri';
 import {Indices} from '../Indices';
 import {Footer} from '../Footer';
+import {Uma} from '../Uma';
 import {
   Routes,
   Route
@@ -17,8 +18,10 @@ function App() {
       <Presentation/>        
         <Routes>
           <Route path="/" element={<Menu/>}>
+            <Route path="*" element={<Capri/>}/>
             <Route index element={<Capri/>}/>
             <Route path="indices" element={<Indices/>}/>
+            <Route path="uma" element={<Uma/>}/>
           </Route>
         </Routes>
       <hr size="1"></hr>
