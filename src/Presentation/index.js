@@ -16,20 +16,7 @@ function Presentation(){
             className="backgroundPresentation"
         >
             <Grid container spacing={2} justifyContent="center">
-                <Grid item xs={5} alignSelf="center">
-                    <h1>Cálculo para I.S.R. e impuestos federales <br/>
-                    Preventa 2022</h1>
-                    <p>
-                        • Realice cálculos desde cualquier dispositivo
-                    </p>
-                    <p>
-                        • Haga sus archivos TXT (enajenación, adquisición y UIF) sin necesidad de volver a llenar datos innecesarios
-                    </p>
-                    <p>
-                        • Mantenga sus cálculos seguros en su propia nube personalizada
-                    </p>
-                </Grid>
-                <Grid item xs={5}>
+            <Grid item xs={4}>
                     <img src={logo} alt="Logo" className="logo"></img>
                     <h2 style={{textAlign:'center'}}>Informática y distribuidora Capricornio S.A. de C.V.</h2>
                     <p style={{textAlign:'center'}}>
@@ -50,6 +37,19 @@ function Presentation(){
                         </Button>
                     </p>
                 </Grid>
+                <Grid item xs={5} alignSelf="center">
+                    <h1>Cálculo para I.S.R. e impuestos federales <br/>
+                    Preventa 2022</h1>
+                    <p>
+                        • Realice cálculos desde cualquier dispositivo
+                    </p>
+                    <p>
+                        • Haga sus archivos TXT (enajenación, adquisición y UIF) sin necesidad de volver a llenar datos innecesarios
+                    </p>
+                    <p>
+                        • Mantenga sus cálculos seguros en su propia nube personalizada
+                    </p>
+                </Grid>                
             </Grid>
         </Box>
     );
