@@ -5,6 +5,8 @@ import {Capri} from '../Capri';
 import {Indices} from '../Indices';
 import {Footer} from '../Footer';
 import {Uma} from '../Uma';
+import {Udis} from '../Udis';
+import {Tablas} from '../Tablas';
 import {
   Routes,
   Route
@@ -22,6 +24,8 @@ function App() {
             <Route index element={<Capri/>}/>
             <Route path="indices" element={<Indices/>}/>
             <Route path="uma" element={<Uma/>}/>
+            <Route path='udis' element={<Udis/>}/>
+            <Route path="tablas" element={<Tablas/>}/>
           </Route>
         </Routes>
       <hr size="1"></hr>
