@@ -10,6 +10,7 @@
     margin: 0 auto;
     display: flex;
     animation: myAnim 3s ease 0s infinite normal forwards;
+    width: 30vh;
 }
 
 @keyframes myAnim {
@@ -24,4 +25,10 @@
 	100% {
 		transform: scale(1);
 	}
+}
+
+@media screen and (max-width: 600px) {
+    .backgroundPresentation{
+        height: auto;
+    }
 }

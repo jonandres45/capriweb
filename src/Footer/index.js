@@ -15,7 +15,7 @@ function Footer(){
                     Informática y Distribuidora Capricornio S.A. de C.V. 2004</p>
                 </Grid>
                 <Grid item xs={5} alignSelf="center">
-                    <p>Aviso de privacidad</p>
+                    
                 </Grid>
             </Grid>
         </Box>

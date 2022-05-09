@@ -6,6 +6,11 @@ import BottomNavigationAction from '@mui/material/BottomNavigationAction';
 import RestoreIcon from '@mui/icons-material/Restore';
 import {Outlet, useNavigate} from 'react-router-dom';
 import './Menu.css';
+import DevicesIcon from '@mui/icons-material/Devices';
+import ArticleIcon from '@mui/icons-material/Article';
+import FormatListNumberedIcon from '@mui/icons-material/FormatListNumbered';
+import TableChartIcon from '@mui/icons-material/TableChart';
+import AttachMoneyIcon from '@mui/icons-material/AttachMoney';
 
 function Menu(){    
     let navigate = useNavigate();
@@ -13,23 +18,28 @@ function Menu(){
     const btnMenu = [
         {
             text: 'Capri - ISR',
-            route: '/'
+            route: '/',
+            icon:<DevicesIcon />,
         },
         {
             text: 'INPC',
-            route: '/indices'
+            route: '/indices',
+            icon:<ArticleIcon />,
         },
         {
             text: 'UDIS',
-            route:'/udis'
+            route:'/udis',
+            icon:<FormatListNumberedIcon />,
         },
         {
             text:'Tablas y tarifas I.S.R.',
-            route:'/tablas'
+            route:'/tablas',
+            icon:<TableChartIcon />,
         },
         {
             text:'UMA',
-            route:'/uma'
+            route:'/uma',
+            icon:<AttachMoneyIcon />,
         }
     ]
     return (
@@ -47,7 +57,7 @@ function Menu(){
                         <BottomNavigationAction 
                             label={item.text}
                             key={item.text} 
-                            icon={<RestoreIcon />}
+                            icon={item.icon}
                             onClick={()=>{                                
                                 navigate(item.route);
                             }}

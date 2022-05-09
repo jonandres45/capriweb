@@ -4,10 +4,11 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import PictureAsPdfIcon from '@mui/icons-material/PictureAsPdf';
 import './HojaPedido.css';
-
+import HojaPedidoPDF from '../../assets/files/HojaPedidoCapri-2022.pdf';
 function HojaPedido(){
     return (        
             <Grid 
+                id="hoja"
                 container 
                 spacing={2} 
                 mt={18} 
@@ -17,7 +18,7 @@ function HojaPedido(){
                 textAlign="center"
                 className="backgroundHojaPedido"
             >
-                <Grid item xs={5}>
+                <Grid item xs={11} md={5}>
                     <Typography gutterBottom variant="h3" component="div">
                         Hoja de pedido Capri 2022
                     </Typography>
@@ -27,15 +28,16 @@ function HojaPedido(){
                     <Button 
                         variant="contained" 
                         size="large"
+                        href={HojaPedidoPDF}
                     >
                         <PictureAsPdfIcon mr={2}/> Descargar
                     </Button>
                 </Grid>
-                <Grid item xs={8} alignSelf="center">
+                <Grid item xs={11} md={8} alignSelf="center" sx={{textAlign:{xs:'left', md:'center'}}}>
                     <Typography color="text.white">
                         Con gusto nos ponemos a sus ordenes y le anunciamos que ya puede realizar la adquisición o renovación del programa C@PRI ISR 2022 con obsequio 2021
                     </Typography>
-                    <Typography gutterBottom variant="h6" component="div">
+                    <Typography color="text.white">
                     Adquiera hoy mismo su sistema para ser de los primeros en recirbirlo y realice sus cálculos eficazmente desde los primeros días del año 2022.
                     </Typography>
                 </Grid>

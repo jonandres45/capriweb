@@ -7,7 +7,7 @@ import PhoneIcon from '@mui/icons-material/Phone';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import Button from '@mui/material/Button';
 import EmailIcon from '@mui/icons-material/Email';
-
+import {handleClick} from './Helpers';
 
 function Presentation(){
     return (
@@ -15,8 +15,8 @@ function Presentation(){
             sx={{ flexGrow: 2 }}
             className="backgroundPresentation"
         >
-            <Grid container spacing={2} justifyContent="center">
-            <Grid item xs={4}>
+            <Grid container spacing={2} justifyContent="center" sx={{mt:{xs:8, md:0},mb:{xs:6, md:0}}}>
+                <Grid item xs={12} md={5}>
                     <img src={logo} alt="Logo" className="logo"></img>
                     <h2 style={{textAlign:'center'}}>Informática y distribuidora Capricornio S.A. de C.V.</h2>
                     <p style={{textAlign:'center'}}>
@@ -37,7 +37,7 @@ function Presentation(){
                         </Button>
                     </p>
                 </Grid>
-                <Grid item xs={5} alignSelf="center">
+                <Grid item xs={12} md={5} alignSelf="center" sx={{textAlign:{xs:'center', md:'left'}}}>
                     <h1>Cálculo para I.S.R. e impuestos federales <br/>
                     Preventa 2022</h1>
                     <p>
@@ -49,6 +49,12 @@ function Presentation(){
                     <p>
                         • Mantenga sus cálculos seguros en su propia nube personalizada
                     </p>
+                    <Button 
+                        variant="contained" 
+                        color="primary"
+                        size="large"
+                        onClick={(event)=> handleClick(event, '#hoja')}                        
+                    >Hoja de pedido</Button>
                 </Grid>                
             </Grid>
         </Box>
