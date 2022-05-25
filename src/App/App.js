@@ -7,10 +7,12 @@ import {Footer} from '../Footer';
 import {Uma} from '../Uma';
 import {Udis} from '../Udis';
 import {Tablas} from '../Tablas';
+import {Whatsapp} from '../Whatsapp';
 import {
   Routes,
   Route
 } from "react-router-dom";
+
 
 import './App.css';
 
@@ -30,6 +32,7 @@ function App() {
         </Routes>
       <hr size="1"></hr>
       <Footer/>
+      <Whatsapp/>
     </React.StrictMode>
   );
 }

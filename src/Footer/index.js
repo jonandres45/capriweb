@@ -7,10 +7,10 @@ function Footer(){
     return(
         <Box sx={{ mt: 0}} className="backgroundFooter">
             <Grid container py={6} spacing={2} justifyContent="center" textAlign="center">
-                <Grid item xs={5}>
+                <Grid item xs={11} md={5}>
                     <img src={mexico} alt="México" className='mexico'></img>
                 </Grid>
-                <Grid item xs={5} alignSelf="center">
+                <Grid item xs={11} md={5} alignSelf="center">
                     <p>Derechos Reservados © <br/>
                     Informática y Distribuidora Capricornio S.A. de C.V. 2004</p>
                 </Grid>

@@ -2,8 +2,6 @@ import React from 'react';
 import Box from '@mui/material/Box';
 import BottomNavigation from '@mui/material/BottomNavigation';
 import BottomNavigationAction from '@mui/material/BottomNavigationAction';
-//import Typography from '@mui/material/Typography';
-import RestoreIcon from '@mui/icons-material/Restore';
 import {Outlet, useNavigate} from 'react-router-dom';
 import './Menu.css';
 import DevicesIcon from '@mui/icons-material/Devices';
