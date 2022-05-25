@@ -15,7 +15,7 @@ function Udis(){
     const [udis, setUdis] = useState([]);
     useEffect(()=>{
         async function res(){
-            const peticion = await axios.get("http://localhost/backend/udis.php");
+            const peticion = await axios.get("https://capri-isr.com/backend/udis.php");
             setUdis(peticion.data);
         }
         res();

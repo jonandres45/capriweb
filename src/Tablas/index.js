@@ -14,11 +14,11 @@ function Tablas(){
 
     useEffect(()=>{
         async function res(){
-            const getTablas = await axios.get("http://localhost/backend/tablas.php");
+            const getTablas = await axios.get("https://capri-isr.com/backend/tablas.php");
             setTablas(getTablas.data);
-            const getTarifas = await axios.get("http://localhost/backend/tarifas.php");
+            const getTarifas = await axios.get("https://capri-isr.com/backend/tarifas.php");
             setTarifas(getTarifas.data);
-            const getRecargos = await axios.get("http://localhost/backend/tasas.php");
+            const getRecargos = await axios.get("https://capri-isr.com/backend/tasas.php");
             setTasas(getRecargos.data);
         }
         res();

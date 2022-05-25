@@ -18,7 +18,7 @@ function Indices(){
 
     useEffect(()=>{
       async function res(){
-        const peticion = await axios.get("http://localhost/backend/indices.php");
+        const peticion = await axios.get("https://capri-isr.com/backend/indices.php");
         setIndices(peticion.data);
       }
       res();

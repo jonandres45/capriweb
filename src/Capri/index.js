@@ -47,8 +47,6 @@ function Capri(){
                             Imprime los formatos completos de libre impresón
                         </Typography>
                         <Typography variant="body2" color="text.white">
-                            -Anexo 5 de la forma fiscal 30 <br/>
-                            -Constancia de Operaciones 37-C <br/>
                             -Forma de pago del 5% a la Entidad Federativa 15-C <br/>
                             -Forma de pago del 5% a la Entidad Federativa F-3 <br/>
                         </Typography>
@@ -67,7 +65,7 @@ function Capri(){
                 >
                     <ScrollAnimation animateIn="fadeIn">
                         <Typography gutterBottom variant="h5" component="div" sx={{textAlign:{xs:'center', md:'left'}}}>
-                            Exporta e improtando al DeclaraNOT en línea
+                            Exporta e importando al DeclaraNOT en línea
                         </Typography>
                         <Typography variant="body2" color="text.white">
                             Genere sus archivos TXT para importarlos al DeclaraNot en línea 2019 <br/>

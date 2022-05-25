@@ -10,7 +10,7 @@
     margin: 0 auto;
     display: flex;
     animation: myAnim 3s ease 0s infinite normal forwards;
-    width: 30vh;
+    width: 20vh;
 }
 
 @keyframes myAnim {

@@ -18,9 +18,11 @@ function Presentation(){
             <Grid container spacing={2} justifyContent="center" sx={{mt:{xs:8, md:0},mb:{xs:6, md:0}}}>
                 <Grid item xs={12} md={5}>
                     <img src={logo} alt="Logo" className="logo"></img>
-                    <h2 style={{textAlign:'center'}}>Informática y distribuidora Capricornio S.A. de C.V.</h2>
+                    <h3 style={{textAlign:'center'}}>Informática y distribuidora Capricornio S.A. de C.V.</h3>
                     <p style={{textAlign:'center'}}>
-                        <PhoneIcon/> (55) 57-87-40-17 <br/> <br/>
+                        <PhoneIcon/> (55) 57-87-40-17 <br/>
+                        (55) 55-11-15-87-06 <br/> 
+                        (55) 55-11-15-87-05 <br/> <br/>
                         <Button 
                             variant="contained" 
                             color="success" 
@@ -38,8 +40,8 @@ function Presentation(){
                     </p>
                 </Grid>
                 <Grid item xs={12} md={5} alignSelf="center" sx={{textAlign:{xs:'center', md:'left'}}}>
-                    <h1>Cálculo para I.S.R. e impuestos federales <br/>
-                    Preventa 2022</h1>
+                    <h2>Cálculo para I.S.R. e impuestos federales <br/>
+                    Preventa 2022</h2>
                     <p>
                         • Realice cálculos desde cualquier dispositivo
                     </p>
