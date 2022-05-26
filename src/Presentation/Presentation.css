@@ -13,6 +13,14 @@
     width: 20vh;
 }
 
+.emailHipervinculo{
+    color:white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 @keyframes myAnim {
 	0% {
 		transform: scale(1);

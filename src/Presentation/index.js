@@ -21,8 +21,9 @@ function Presentation(){
                     <h3 style={{textAlign:'center'}}>Informática y distribuidora Capricornio S.A. de C.V.</h3>
                     <p style={{textAlign:'center'}}>
                         <PhoneIcon/> (55) 57-87-40-17 <br/>
-                        (55) 55-11-15-87-06 <br/> 
-                        (55) 55-11-15-87-05 <br/> <br/>
+                        (55) 11-15-87-06 <br/> 
+                        (55) 11-15-87-05 <br/> <br/>
+                        <a href="maito:isr@capri-isr.com" className="emailHipervinculo"> <EmailIcon/> isr@capri-isr.com </a> <br/>
                         <Button 
                             variant="contained" 
                             color="success" 
@@ -30,18 +31,13 @@ function Presentation(){
                             href="https://wa.me/5215526771838"
                         >
                             <WhatsAppIcon/> +52 1 5526771838
-                        </Button> <br/> <br/>
-                        <Button 
-                            variant="contained" 
-                            color="info"
-                        >
-                            <EmailIcon/> isr@capri-isr.com
-                        </Button>
+                        </Button> <br/> <br/>                                                   
                     </p>
                 </Grid>
                 <Grid item xs={12} md={5} alignSelf="center" sx={{textAlign:{xs:'center', md:'left'}}}>
-                    <h2>Cálculo para I.S.R. e impuestos federales <br/>
-                    Preventa 2022</h2>
+                    <h1>CAPRI - I.S.R.</h1>
+                    <h2>Cálculo para I.S.R. e impuestos federales 
+                    {/*<br/>Preventa 2022*/}</h2>
                     <p>
                         • Realice cálculos desde cualquier dispositivo
                     </p>
