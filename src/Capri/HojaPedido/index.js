@@ -20,7 +20,7 @@ function HojaPedido(){
             >
                 <Grid item xs={11} md={5}>
                     <Typography gutterBottom variant="h3" component="div">
-                        Hoja de pedido Capri 2022
+                        Hoja de pedido Capri 2023
                     </Typography>
                     <Typography variant="body2" color="text.white" mb={4}>
                         Descargue y llene a mano o desde su computadora su hoja de pedido
@@ -35,7 +35,7 @@ function HojaPedido(){
                 </Grid>
                 <Grid item xs={11} md={8} alignSelf="center" sx={{textAlign:{xs:'left', md:'center'}}}>
                     <Typography color="text.white">
-                        Con gusto nos ponemos a sus ordenes y le anunciamos que ya puede realizar la adquisición o renovación del programa C@PRI ISR 2022 con obsequio 2021
+                        Con gusto nos ponemos a sus ordenes y le anunciamos que ya puede realizar la adquisición o renovación del programa C@PRI ISR 2023 con obsequio 2022
                     </Typography>
                     <Typography color="text.white">
                     Adquiera hoy mismo su sistema para ser de los primeros en recirbirlo y realice sus cálculos eficazmente desde los primeros días del año 2022.
